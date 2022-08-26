@@ -1,0 +1,166 @@
+<%- include('partials/homepage_head') %>
+
+    <%- include('partials/navbar') %>
+
+        <h1 class="display-1 text-center">Bread</h1>
+        <br>
+
+        <div class="d-flex justify-content-start align-items-center flex-wrap">
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-1" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81coLjMhbBL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">More Fresh Brown Bread, 400 g</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">37</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-2" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/815XdY--ZDL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">More Fresh Milk Bread 400g</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">35</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-3" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81ZzUUyw4+L._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">More Fresh Baked Multi Grain Bread, 400 g</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">44</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-4" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61+8mEkKfRS._AC_UL480_FMwebp_QL65_.jpg" style="height: 370px;">
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">More Fresh White Bread 400g</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">35</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-5" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/6121qKU4IPL._AC_UL480_FMwebp_QL65_.jpg" style="height: 380px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Muffets & Tuffets White Sandwich Bread, 400g Pouch</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">45</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-6" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61HUvBxA7gL._AC_UL480_FMwebp_QL65_.jpg" style="height: 370px;margin-left: 2em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Muffets & Tuffets Garlic Bread, 150g Pouch</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">18</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-7" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71TDzA+I6YL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;margin-left: 2em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/bread" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="1" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Muffets & Tuffets Ladi Pav, 180g</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">16</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+        
+</html>

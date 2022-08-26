@@ -1,0 +1,232 @@
+<%- include('partials/homepage_head') %>
+
+    <%- include('partials/navbar') %>
+
+        <h1 class="display-1 text-center">Beverages</h1>
+        <br>
+
+        <div class="d-flex justify-content-start align-items-center flex-wrap">
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-1" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51EDhZhCDfL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Maaza Soft Drink, 1.2 L</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">70</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-2" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51dd24LwWoL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Thums-Up Thums Up Soft Drink, 750 ml Bottle</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">34</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-3" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51wbGJosKSL._AC_UL480_FMwebp_QL65_.jpg"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Yakult Probiotic Health Drink Bottle, 5 X 65 ml</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">70</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-4" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71s0tJ-iLtL._AC_UL480_FMwebp_QL65_.jpg" style="height: 370px;width: 370px;">
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Complan Nutrition and Health Drink Royale Chocolate, 1kg (Carton)</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">470</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-5" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81cb-rj3jfL._AC_UL480_FMwebp_QL65_.jpg" style="height: 380px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Green Beverages Chamomile Green Tea - 27 Pyramid Tea Bags | Natural Fresh & Pure | Helps In Soothing, Sleeping, Calm, Boosts Immunity</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">249</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-6" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/511S6r92eML._AC_UL480_FMwebp_QL65_.jpg" style="height: 370px;margin-left: 2em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="4" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Brooke Bond Red Label Tea 500g Pack, Strong Chai From The Best Chosen Leaves, Rich In Healthy Flavonoids - Premium Powdered Black Tea Flavour : Basil, Ginger and Cardamony</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">285</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-7" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61gbXlS4DNL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;margin-left: 2em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Taj Mahal South Tea 500 g Pack, Rich and Flavourful Chai - Premium Blend of Powdered Fresh Loose Tea Leaves</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">385</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-8" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71PiszDkulL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;margin-left: -3em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Nescafé Classic Coffee, 100g Dawn Jar</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">285</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-9" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51jFUqLYZzL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="2" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Blue Tokai Coffee Roasters Vienna Roast Arabica - 250 Gm (Freshly Roasted) (French Press)</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">420</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-10" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61gIV9FklqL._AC_UL480_FMwebp_QL65_.jpg" style="height: 390px;margin-left: 2.5em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/grocery/beverages" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="4" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">BRU Instant Coffee Powder 200g Pouch, Roasted Arabica & Robusta Ground Coffee Beans From South India - Rich & Strong Blend Of Coffee & Chicory</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">289</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 10em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+        
+</html>

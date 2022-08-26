@@ -1,0 +1,597 @@
+<%- include('partials/homepage_head') %>
+
+    <%- include('partials/navbar') %>
+
+        <h1 class="display-1 text-center">Mens Fashion</h1>
+        <br>
+        <br>
+        <h2 class="display-2 text-center">T-shirts & Polos</h2>
+        <div class="d-flex justify-content-start align-items-center flex-wrap">
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-1" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61bDoqhvEPL._AC_UL480_FMwebp_QL65_.jpg" style="height:310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Printed Full Sleeve Slim Fit Cotton T-Shirt</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">399</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                            
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-2" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://www.comicsense.in/wp-content/uploads/2021/06/strongest_sorcerer_lgreyhj_comicsense.jpg" style="height:310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Jujutsu Kaisen Printed T-shirt</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">599</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                            
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-3" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51JE7Y0SFmL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left: -5em;"/>
+                <div style="margin-left:5.5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Regular Fit Printed Full Sleeve Soft & Strong Hooded T-Shirt</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">399</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <h2 class="display-2 text-center">Shirts</h2>
+        <div class="d-flex justify-content-start align-items-center flex-wrap">
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-4" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61KNBTw4K8S._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left: -5em;"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Dennis Lingo</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">574</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-5" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/513r41nTetS._AC_UL480_FMwebp_QL65_.jpg" style="margin-left:-8em;height:310px"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Poly Cotton Lining Digital Printed Stitched Half Sleeve Shirt</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">419</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-6" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81J9luqR-aS._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-7em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Mens Half Sleve Printed stretchable Casual Shirt</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">399</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <h2 class="display-2 text-center">Trousers and Jeans</h2>
+        <div>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-7" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81aLEvSqU+L._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-2em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Chino Regular Casual Trousers</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">329</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-8" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71f3PbhvZiL._AC_UL480_FMwebp_QL65_.jpg" style="height:310px;margin-left:-5em;margin-right: -5em;"/>
+                <div style="margin-left: 10em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Slim Fit Regular Casual Trousers</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">369</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-9" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71qGltKcLvL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men's Stretchable Slim Casual Trousers</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">599</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-10" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61ZGXTSfA3L._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men Striped Denim Jeans</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">799</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-11" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61jRLLl8R8L._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men Ankle Rib Denim Jeans</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">798</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-12" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/71fEifTypuL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Men Side Applique Print Denim Jeans</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">784</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <h2 class="display-2 text-center">Footwear</h2>
+        <div class="d-flex justify-content-start align-items-center flex-wrap">
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-13" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/61ynTmG2VDL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;width: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Somillo Men's Flip-Flop Slipper Blue Colour</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">189</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-14" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/91GW5WtbCSL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Dekkin Faux Fur Slip On Home/Indoor Fancy Fluffy Winter Slipper for Men and Boys - Brown</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">548</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-15" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/91fjSPiMkrL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;margin-left:-3em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Sparx Men's Flip-Flops</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">280</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-16" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51hocmGYnuL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;width: 350px;margin-left:-1em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">TOESMITH Printed Designer Casual Slip on Sneaker Shoes for Men</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">1499</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-17" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/51OH60BPCqL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;width:470px;margin-left:-1em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">US Polo Association Men Clarkin Sneaker</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">1799</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-evenly align-items-center border border-info" id="product-18" style="height:400px;width: 1200px;margin-left: 12em;margin-right: 12em;">
+                <img src="https://m.media-amazon.com/images/I/81BXvsaMgyL._AC_UL480_FMwebp_QL65_.jpg" style="height: 310px;width:470px;margin-left:-1em"/>
+                <div style="margin-left: 5em;margin-top: 3em;">
+                    <form action="/fashion/men" method="post">
+                        <div class="form-group-row">
+                            <div class="col-sm-10">
+                                <textarea rows="3" cols="3" readonly name="product_description" class="form-control-plaintext" style="font-weight: bold;margin-top: -2em;">Converse Unisex Sneakers</textarea>
+                                <br>
+                                <span style="font-size: medium;">Rs.</span>
+                                <textarea rows="1" cols="1" readonly name = "product_price" class="form-control-plaintext display-6" style="font-weight: bold;">1797</textarea>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="form-outline" style="display: inline-block ;">
+                            <label class="form-label" for="size">Choose Size: </label>
+                            <select id="size" name="size">
+                                <option value="6">UK 6</option>
+                                <option value="7">UK 7</option>
+                                <option value="8">UK 8</option>
+                                <option value="9">UK 9</option>
+                                <option value="10">UK 10</option>
+                                <option value="11">UK 11</option>
+                                <option value="12">UK 12</option>
+                            </select>
+                            <br>
+                            <label class="form-label" for="typeNumber">Quantity</label>
+                            <input type="number" name="Quantity_1" id="typeNumber" class="form-control" />
+                        </div>
+                        <button id = "cart" class="btn btn-success" style="display: inline-block;margin-top: 1em;margin-bottom: 1.4em;margin-left: 2em;">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+        
+</html>
